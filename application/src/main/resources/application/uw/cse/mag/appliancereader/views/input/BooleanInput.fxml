@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root type="javafx.scene.layout.HBox" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="-1.0" prefWidth="-1.0" spacing="2.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Pane maxWidth="1.7976931348623157E308" prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS" />
+    <Label fx:id="inputLabel" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="150.0" minWidth="150.0" text="Input Field:" textAlignment="RIGHT" wrapText="true" HBox.hgrow="NEVER">
+      <font>
+        <Font size="14.0" />
+      </font>
+    </Label>
+    <RadioButton fx:id="trueButton" mnemonicParsing="false" text="True" HBox.hgrow="NEVER">
+      <HBox.margin>
+        <Insets left="5.0" fx:id="x1" />
+      </HBox.margin>
+    </RadioButton>
+    <RadioButton fx:id="falseButton" mnemonicParsing="false" text="False" HBox.hgrow="NEVER" HBox.margin="$x1" />
+    <Pane maxWidth="1.7976931348623157E308" prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS" />
+  </children>
+  <padding>
+    <Insets bottom="3.0" left="5.0" right="5.0" top="3.0" />
+  </padding>
+</fx:root>

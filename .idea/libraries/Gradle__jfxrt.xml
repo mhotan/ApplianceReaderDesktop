@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: jfxrt">
+    <CLASSES>
+      <root url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jfxrt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

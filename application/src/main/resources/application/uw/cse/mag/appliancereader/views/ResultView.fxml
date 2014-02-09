@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root type="javafx.scene.layout.BorderPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-1.0" minWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <center>
+    <ScrollPane hbarPolicy="AS_NEEDED" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="-1.0" prefWidth="-1.0">
+      <content>
+        <VBox fx:id="contentPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="-1.0" prefWidth="-1.0">
+          <children>
+            <BorderPane fx:id="featurePane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="-1.0" prefWidth="-1.0">
+              <center>
+                <Label fx:id="featureLabel" alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="-1.0" text="" wrapText="true" />
+              </center>
+              <left>
+                <ImageView fx:id="referenceFeatureImage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+              </left>
+              <right>
+                <ImageView fx:id="otherFeatureImage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+              </right>
+              <top>
+                <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Feature Results" textAlignment="CENTER" />
+              </top>
+            </BorderPane>
+            <BorderPane fx:id="allMatchesPane" maxWidth="1.7976931348623157E308" prefHeight="-1.0" prefWidth="-1.0">
+              <left>
+                <Label fx:id="allMatchesLabel" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" wrapText="true" />
+              </left>
+              <right>
+                <ImageView fx:id="allMatchesImage" fitHeight="150.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+              </right>
+              <top>
+                <Label alignment="BOTTOM_CENTER" maxWidth="1.7976931348623157E308" text="All Matches" />
+              </top>
+            </BorderPane>
+            <BorderPane fx:id="inlierMatchesPane" maxWidth="1.7976931348623157E308" prefHeight="-1.0" prefWidth="-1.0">
+              <left>
+                <Label fx:id="inlierMatchesLabel" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" wrapText="true" />
+              </left>
+              <right>
+                <ImageView fx:id="inlierMatchesImage" fitHeight="150.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+              </right>
+              <top>
+                <Label alignment="BOTTOM_CENTER" maxWidth="1.7976931348623157E308" text="Inlier Matches" />
+              </top>
+            </BorderPane>
+            <BorderPane fx:id="homographyPane" maxWidth="1.7976931348623157E308" prefHeight="-1.0" prefWidth="-1.0">
+              <center>
+                <HBox alignment="CENTER" maxHeight="-1.0" maxWidth="1.7976931348623157E308" prefHeight="-1.0" prefWidth="-1.0">
+                  <children>
+                    <ImageView id="warp" fx:id="resRefImg" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                    <ImageView fx:id="resOtherImg" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                    <ImageView fx:id="warpedImg" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                  </children>
+                </HBox>
+              </center>
+              <top>
+                <Label alignment="BOTTOM_CENTER" maxWidth="1.7976931348623157E308" text="Homography Results" />
+              </top>
+            </BorderPane>
+          </children>
+        </VBox>
+      </content>
+    </ScrollPane>
+  </center>
+  <padding>
+    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+  </padding>
+  <top>
+    <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Association and Homography Results" textAlignment="CENTER" />
+  </top>
+</fx:root>

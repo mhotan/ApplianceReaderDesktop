@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="javafx">
+    <output-path>$PROJECT_DIR$/out/artifacts/javafx</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="htmlParamFile" value="" />
+        <option name="paramFile" value="" />
+        <option name="title" value="Appliance Reader Tester" />
+        <option name="vendor" value="Mobile Accessibility Group" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="javafx.jar">
+        <element id="module-output" name="javafx" />
+      </element>
+    </root>
+  </artifact>
+</component>

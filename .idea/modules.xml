@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApplianceReaderDesktop.iml" filepath="$PROJECT_DIR$/ApplianceReaderDesktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Builders/Gradle/JavaFX-Shemnon-Examples/samples/FXML-LoginDemo/FXML-LoginDemo.iml" filepath="$PROJECT_DIR$/../Builders/Gradle/JavaFX-Shemnon-Examples/samples/FXML-LoginDemo/FXML-LoginDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Builders/Gradle/JavaFX-Shemnon-Examples/samples/SwingInterop/SwingInterop.iml" filepath="$PROJECT_DIR$/../Builders/Gradle/JavaFX-Shemnon-Examples/samples/SwingInterop/SwingInterop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/application.iml" filepath="$PROJECT_DIR$/application/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../archive/archive.iml" filepath="$PROJECT_DIR$/../archive/archive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Builders/Gradle/JavaFX-Shemnon-Examples/samples/brickbreaker/brickbreaker.iml" filepath="$PROJECT_DIR$/../Builders/Gradle/JavaFX-Shemnon-Examples/samples/brickbreaker/brickbreaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Builders/Gradle/JavaFX-Shemnon-Examples/samples/samples.iml" filepath="$PROJECT_DIR$/../Builders/Gradle/JavaFX-Shemnon-Examples/samples/samples.iml" />
+    </modules>
+  </component>
+</project>
+
